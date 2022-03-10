@@ -1,0 +1,41 @@
+.polaroid-row {
+    margin: 50px 0px 0px 50px;
+}
+
+.polaroid {
+    width: 360px;
+    padding: 30px;
+    padding-bottom: 100px;
+    border: 1px solid #000;
+    background-color: #FFF;
+    box-shadow: 20px 20px 20px #333;
+    margin-left: 50px;
+    float: left;
+}
+
+.polaroid-right {
+    transform: rotate(15deg);
+}
+
+.polaroid-left {
+    transform: rotate(-15deg);
+}
+
+.polaroid > img {
+    width: 300px;
+    height: 300px;
+}
+
+.polaroid-description {
+    margin-top: 10px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.polaroid-description > h3 {
+    font-weight: normal;
+    text-align: center;
+    color: #000;
+    font-size: 18px;
+}
